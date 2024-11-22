@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  outline: none;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+:root {
+
+  /* Color BG*/
+  --color-bg: background: rgb(249,214,213);
+  background: linear-gradient(90deg, rgba(249,214,213,1) 0%, rgba(249,214,213,1) 100%);
+
+  /* White */
+  --white: #fff;
+
+  /* Black */
+  --black-080808: #080808;
+  --black-000: #000;
+
+  /* Pink */
+  --pink: #e26253;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--black-080808);
+}
+
+@media (width < 40rem) {
+    html {
+      font-size: 70%;
+    }
+}
