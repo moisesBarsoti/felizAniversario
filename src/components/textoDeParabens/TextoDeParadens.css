@@ -31,6 +31,7 @@ h2 {
 }
 
 p {
+    font-size: .9rem;
     text-align: center;
     width: 40ch;
     font-family: 'Roboto', sans-serif;

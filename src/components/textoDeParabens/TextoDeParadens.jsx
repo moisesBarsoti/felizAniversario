@@ -1,4 +1,5 @@
 import "./TextoDeParadens.css";
+import '../Animacoes/Animacoes.css';
 
 export const TextoDeParadens = () => {
   return (

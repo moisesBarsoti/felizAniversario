@@ -35,6 +35,8 @@ body {
   color: var(--black-080808);
 }
 
+/* Responsividade */
+
 @media (width < 40rem) {
     html {
       font-size: 70%;
