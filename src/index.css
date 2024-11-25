@@ -16,8 +16,8 @@ html {
 :root {
 
   /* Color BG*/
-  --color-bg: background: rgb(249,214,213);
-  background: linear-gradient(90deg, rgba(249,214,213,1) 0%, rgba(249,214,213,1) 100%);
+  --color-bg: background: rgb(249, 214, 213);
+  background: linear-gradient(90deg, rgba(249, 214, 213, 1) 0%, rgba(249, 214, 213, 1) 100%);
 
   /* White */
   --white: #fff;
@@ -38,7 +38,15 @@ body {
 /* Responsividade */
 
 @media (width < 40rem) {
-    html {
-      font-size: 70%;
-    }
+  html {
+    font-size: 70%;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  img {
+    width: 200px;
+  }
 }
